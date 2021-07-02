@@ -1,0 +1,74 @@
+.card {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+.team-details
+{
+    width:100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.name
+{
+    color:#464646;
+    display: block;
+    font-family: Open Sans,sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    margin: 0;
+}
+.position{
+    color: #545454;
+    display: block;
+    font-family: Open Sans,sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    line-height: .6em;
+    margin: 0;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}

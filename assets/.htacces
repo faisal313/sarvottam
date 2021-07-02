@@ -1,0 +1,19 @@
+RewriteEngine On
+        RewriteCond %{HTTP_HOST} !^www.example.com$ [NC]
+        RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301]
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+
+
+
+
+ RewriteCond %{HTTP_HOST} !^http://codezilla.io/$ [NC]
+ RewriteRule ^(.*)$ http://codezilla.io/$1 [L,R=301]
+
+
+
+</IfModule>
+

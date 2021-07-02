@@ -1,0 +1,14 @@
+
+/*
+*css only for p[ortfolio2 page
+*/
+
+.fw-branding {
+    display: none;
+}
+.isotope.col-4 .isotope-item {
+    width: 100%;
+}
+.isotope.gutter, .isotope.masonry {
+    margin: 75px;
+}
